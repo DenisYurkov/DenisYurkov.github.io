@@ -1,0 +1,72 @@
+body{
+	padding: 5px;
+	margin: 5px;
+	font-family:Florence,cursive;
+	background: url(../img/leaves-pattern.png);
+		
+}
+header{	
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	border-radius: 12px;
+	background: url("http://poliksal.ru/uploads/posts/2017-09/1504991118259b42f1a56d77.jpg") no-repeat  ;
+}
+.photos{
+	float:left;
+	margin-right: 30px;
+	height:150px;
+	width:80px;
+}
+h2{
+	color:#4FBF9F;
+}
+h2:hover{
+	color:#FFDD00;
+}
+h3{
+	color:#4FBF9F;
+}
+h3:hover{
+	color:#FFDD00;
+}
+
+img{
+	width:230px;
+}
+.color{
+	color:#26C8F0;
+}
+h4{
+	color:#4FBF9F;
+}
+h4:hover{
+	color:#FFDD00;
+}
+h5{
+	color:#FF6D1E;
+}
+.nsdgm{
+	max-width: 100%;
+	color: #41B0FF;
+	text-align: center;
+}
+.contacts{
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.location{
+	color:#2D73FF;
+}
+.location:hover{
+	color:#FF8C2D;
+}
+.card{
+	max-width: 100%;
+}
+.gfgjk{
+	text-align: center;
+}
