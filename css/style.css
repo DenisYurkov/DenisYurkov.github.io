@@ -23,7 +23,7 @@ h1 {
   padding-top: 100px; }
 
 .main {
-  curcor: pointer;
+  cursor: pointer;
   text-align: center;
   margin-top: 400px; }
 
@@ -33,6 +33,9 @@ li {
   vertical-align: middle; }
 
 a {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
   text-decoration: none;
   color: #fff;
   border: 3px solid transparent;
