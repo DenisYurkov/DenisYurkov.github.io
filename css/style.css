@@ -33,8 +33,6 @@ li {
   vertical-align: middle; }
 
 a {
-  -webkit-appearance: button;
-  -moz-appearance: button;
   appearance: button;
   text-decoration: none;
   color: #fff;
