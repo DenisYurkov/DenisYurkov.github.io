@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>event handling</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="console.log('Loaded');">
+	<script src="js/script.js"></script>
+	<form onsubmit="return confirm('Submit?');">
+		<input type="text" 
+			
+		onfocus="x = 1; console.log(x);"
+		onblur="x = 0; console.log(x);" 
+		>
+		<input type="submit">
+	</form>
+</body>
+</html>

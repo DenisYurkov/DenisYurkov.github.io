@@ -1,0 +1,9 @@
+*{
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+}
+iframe {
+	max-width: 100%;
+}
