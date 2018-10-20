@@ -1,5 +1,5 @@
 var userName = 'Alex' ;
-function showMessage(){
+function showMessage() {
 	userName = ' John';
 	var message =' Привет я' + userName;
 	alert(message);
