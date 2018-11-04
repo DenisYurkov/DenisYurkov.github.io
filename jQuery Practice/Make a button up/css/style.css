@@ -1,0 +1,29 @@
+body {
+	background-color: #432131;
+	height: 2500px;
+	font-family: Arial;
+	color: #fff;
+	padding: 0 50px;
+}
+h1 {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+}
+.btn-top {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #2ecc71;
+	color: #fff;
+	cursor: pointer;
+	padding: 15px 40px;
+	border-radius: 10px;	
+}
+.btn-top:hover {
+	background-color: #27ae60;
+}
