@@ -70,6 +70,13 @@ a {
   padding: 10px;
   margin-right: 50px; }
 
+.Сounter {
+  max-width: 100%;
+  background: #2CE2AB;
+  border-radius: 11px;
+  padding: 10px;
+  margin-right: 50px; 
+}
 .Skeleton {
   background: #FF788F;
   border-radius: 11px;
