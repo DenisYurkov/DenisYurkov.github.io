@@ -23,30 +23,53 @@
 </head>
 <body>
 	<header>
-		<h1>Это мои сайты</h1>
+		<h1>Мои сайты и приложения</h1>
 		<p class="text">Bыберите сайт который вам понравился</p>
 	</header>
 	<section class="section">
 		<div class="contaner">
 			<nav class="main">
 				<ul>
-					<li class="Certificates"><a href="Page of the Home Page/certificates/certificates.html" target="blank" title="Click on me">Сертификаты за программирование</a></li>
-					<li class="Football"><a href="Page of the Home Page/canvas paint/canvas.html" target="blank" title="Click on me">Paint в браузере</a></li>
-					<li class="Happy"><a href="Page of the Home Page/snakeGame/snakeGame.html" target="blank" title="Click on me">Игра змейка в браузере</a></li>
-					<li class="Bookmarks"><a href="Page of the Home Page/bookmarks/bookmarks.html" target="blank" title="Click on me">Программы которыми я пользуюсь</a></li>
-					<li class="Structure"><a href="Page of the Home Page/to do list/notes.html" target="blank" title="Click on me">Приложение заметок</a></li>
-                    <li class="Skeleton"><a href="Page of the Home Page/to do list new design/to do list new design.html" target="blank" title="Click on me">Приложение заметок новый дизайн</a></li>
-                    <li class="Сounter"><a href="Page of the Home Page/number counter animation/counter.html" target="blank" title="Click on me">Счетик для сайта</a></li>
-                    <li class="Сounter"><a href="Page of the Home Page/simple currency converter by yourself/convector.html" target="blank" title="Click on me">Конвектор валют с долларов в белорусские рубли</a></li>
-					<li class="Queen"><a href="https://denisyurkov.github.io/queen/" target="blank" title="Click on me">Сайт с книгой</a></li>
+					<li class="one__block"><a href="Page of the Home Page/certificates/certificates.html" target="blank" title="Click on me">Сертификаты за программирование</a></li>
+					<li class="two__block"><a href="Page of the Home Page/canvas paint/canvas.html" target="blank" title="Click on me">Paint в браузере</a></li>
+					<li class="three__block"><a href="Page of the Home Page/snakeGame/snakeGame.html" target="blank" title="Click on me">Игра змейка в браузере</a></li>
+					<li class="four__block"><a href="Page of the Home Page/bookmarks/bookmarks.html" target="blank" title="Click on me">Программы которыми я пользуюсь</a></li>
+					<li class="five__block"><a href="Page of the Home Page/to do list/notes.html" target="blank" title="Click on me">Приложение заметок</a></li>
+                    <li class="six__block"><a href="Page of the Home Page/to do list new design/to do list new design.html" target="blank" title="Click on me">Приложение заметок новый дизайн</a></li>
+                    <li class="seven__block"><a href="Page of the Home Page/number counter animation/counter.html" target="blank" title="Click on me">Счетик для сайта</a></li>
+                    <li class="eight__block"><a href="Page of the Home Page/simple currency converter by yourself/convector.html" target="blank" title="Click on me">Конвектор валют с долларов в белорусские рубли</a></li>
+                    <li class="nine__block"><a href="Page of the Home Page/queen/queen.html" target="blank" title="Click on me">Сайт с книгой</a></li>
+                    <li class="ten__block"><a href="Page of the Home Page/skill bar for portfolio/skill bar for portfolio.html" target="blank" title="Click on me">My skills</a></li>
 				</ul>
 			</nav>
 	</div>
 		<!-- /.contaner -->
 	</section>
 	<!-- /.section -->
-<script src="js/queryloader2.min.js" type="text/javascript"></script>
-<script type="text/javascript">
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script  src="js/jquery.backgroundvideo.min.js"></script>
+<script>
+  $(document).ready(function() {
+    var videobackground = new $.backgroundVideo($('body'), {
+      "align": "centerXY",
+      "width": 1280,
+      "height": 720,
+      "path": "video/",
+      "filename": "code",
+      "types": ["mp4","ogg","webm"],
+      "preload": true,
+      "autoplay": true,
+      "loop": true
+    });
+  });
+      </script>
+
+<script  src="js/queryloader2.min.js"></script>
+<script>
     window.addEventListener('DOMContentLoaded', function() {
         QueryLoader2(document.querySelector("body"), {
             barColor: "#efefef",
@@ -57,6 +80,6 @@
             fadeOutTime: 1000
         });
     });
-</script>	
+</script>
 </body>
 </html>
