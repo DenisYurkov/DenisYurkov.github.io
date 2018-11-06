@@ -5,9 +5,6 @@ html, body {
     overflow-x: hidden; }
 
 body {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
     font-family: 'Open Sans', sans-serif;}
 
 h1 {
@@ -149,6 +146,6 @@ li:hover {
         margin-bottom: 10px;
     }
     .ten__block {
-     margin-left: 1px;
+     margin-left: 3px;
     }
 }
