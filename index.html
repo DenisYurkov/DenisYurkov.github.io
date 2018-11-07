@@ -13,21 +13,22 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="google-site-verification" content="beQwlcvBqzMqqf0yIQaGNMbOohkibSMbA4AkcjYtobE" />
-	<meta name='wmail-verification' content='836ca6696fef5755c933e9fb6d9c5f6e' />
+    <meta name='wmail-verification' content='836ca6696fef5755c933e9fb6d9c5f6e' />
+    <meta name="description" content="Это всё, что я создал за небольшое время обучения программирования около 4 месяцов. Это не всё очень многое , я не добавил если вам интересно то вот мой GitHub там много моих репозиториев вот ссылка https://github.com/DenisYurkov. " />
+
 	<meta name="yandex-verification" content="28dc8e3517f7e504" />
-	<title>Мои сайты</title>
+	<title>Мои сайты и приложения</title>
 	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
-      
 </head>
 <body >
 	<header>
-		<h1>Мои сайты и приложения</h1>
-		<p class="text">Bыберите сайт который вам понравился</p>
-	</header>
+        <h1 class='header__text'>Мои сайты и приложения</h1>
+        <p class="text" style="white-space:pre;"></p>
+		<p class="help__text">Выберите сайт который вам понравился</p>
+    </header>
 	<section class="section">
 		<div class="contaner">
 			<nav class="main">
@@ -52,5 +53,18 @@
 
 <script  src="js/queryloader2.min.js" ></script>
 <script  src="js/loading.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>     
+<script>
+    jQuery(document).ready(function () {
+        var typed = new Typed(".text", {
+            strings: ["Это всё, что я создал за небольшое время обучения программирования около 4 месяцов. Это не всё очень многое , я не добавил если вам интересно то вот мой GitHub там много моих репозиториев вот ссылка <a>https://github.com/DenisYurkov</a> "],
+            typeSpeed: 27,
+            showCursor : false 
+            
+      
+});
+    });
+</script>
 </body>
 </html>
