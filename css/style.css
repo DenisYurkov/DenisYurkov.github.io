@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background:url("../img/footer_lodyas.png") no-repeat center center fixed;
+    background:url("../img/footer_lodyas.png") no-repeat center center ;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -19,6 +19,15 @@ h1 {
     padding-top: 10px;
     color: #fff;
     text-align: center; }
+.github {
+    cursor: pointer;
+    color: #7151B3;
+    text-align: center;
+}
+.github:hover {
+    color: #FF7614;
+    text-decoration: underline; 
+}
 
 .help__text {
     color: #BBBBBB !important;
