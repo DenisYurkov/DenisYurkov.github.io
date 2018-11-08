@@ -1,4 +1,4 @@
-alert('Эта змейка только для компьютеров');
+alert('Эта змейка только для компьютеров. Управлять стрелочками на клавиатуре.');
 window.onload = function() {
   document.addEventListener('keydown', changeDirection);
   setInterval(loop, 1000/60); // 60 FPS
