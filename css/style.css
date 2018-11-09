@@ -42,7 +42,7 @@ body {
 }
 
 h1 {
-    font-size:30px;
+    font-size:25px;
     padding-top: 15px;
     color: #fff;
     text-align: center; }
@@ -55,20 +55,21 @@ h1 {
     color: #FF7614;
     text-decoration: underline; 
 }
+.text {
+    color: #BBBBBB !important;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    padding-top: 100px; }
 
 .help__text {
     color: #BBBBBB !important;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     padding-top: 100px;
 }
-.text {
-    color: #BBBBBB !important;
-    text-align: center;
-    font-size: 21px;
-    color: #fff;
-    padding-top: 100px; }
+
 
 .main {
     cursor: pointer;
@@ -82,8 +83,7 @@ li {
 
  a {
     display: block;
-    font-size: 28px;
-    appearance: button;
+    font-size: 21px;
     text-decoration: none;
     color: #fff;
     border: 3px solid transparent;
