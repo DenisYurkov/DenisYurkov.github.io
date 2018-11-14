@@ -17,6 +17,9 @@ header{
 	height:150px;
 	width:80px;
 }
+p {
+    font-size: 19px;
+}
 h2{
 	color:#4FBF9F;
 }
@@ -31,7 +34,7 @@ h3:hover{
 }
 
 img{
-	width:230px;
+	width:300px;
 }
 .color{
 	color:#26C8F0;
@@ -43,6 +46,7 @@ h4:hover{
 	color:#FFDD00;
 }
 h5{
+    font-size: 16px;
 	color:#FF6D1E;
 }
 .nsdgm{

@@ -9,12 +9,15 @@ img{
 	float:left;
 	margin-right: 30px
 }
-
+p {
+    font-size: 19px;
+}
 #header{
 	color:#28A5FF;
 	text-align: center;
 }
 a{
+    font-size: 17px;
 	text-decoration:none;
 
 }
@@ -22,8 +25,10 @@ a:active{
 	color:#2369FF;
 }
 a:hover{
+    text-decoration: underline;
 	color:#FF6E14;
 }
+
 h2{
 	color:#4FBF9F;
 }
@@ -35,6 +40,7 @@ ul li{
 	margin-right:20px;
 }
 h5{
+    font-size: 16px;
 	color:#FF633C;
 }
 
