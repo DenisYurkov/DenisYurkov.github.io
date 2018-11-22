@@ -35,7 +35,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background:url("../img/footer_lodyas.png") no-repeat center center ;
+    background: url("../img/blake-connally-373084-unsplash (1).jpg") no-repeat top center;                                            
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,15 +46,18 @@ h1 {
     padding-top: 15px;
     color: #fff;
     text-align: center; }
+
 .github {
     cursor: pointer;
-    color: #7151B3;
+    color: #B34EE9;
     text-align: center;
 }
+
 .github:hover {
     color: #FF7614;
     text-decoration: underline; 
 }
+
 .text {
     color: #BBBBBB !important;
     text-align: center;
@@ -198,6 +201,7 @@ li:hover {
         margin-bottom: 30px;
     }
 }
+
 @media (min-width: 576px ) {
     .ten__block {
         margin-left: 31px;
