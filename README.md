@@ -1,2 +1,2 @@
 # DenisYurkov.github.io
-My site and my project in browser
+My site and my projects in the browser
