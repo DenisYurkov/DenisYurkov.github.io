@@ -6,5 +6,5 @@ window.addEventListener('DOMContentLoaded', function() {
       barHeight: 1,
       minimumTime: 200,
       fadeOutTime: 1000
-              });
+  });
 });
