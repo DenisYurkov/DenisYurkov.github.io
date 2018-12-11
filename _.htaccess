@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_USER_AGENT} wget [UC]
+Rewrite .* - [F]
