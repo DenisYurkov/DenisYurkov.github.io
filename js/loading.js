@@ -7,4 +7,4 @@ window.addEventListener('DOMContentLoaded', function() {
       minimumTime: 200,
       fadeOutTime: 1000
     });
-});
+}); 
