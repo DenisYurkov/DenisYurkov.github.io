@@ -8,11 +8,13 @@
 </head>
 <body style="margin: 0;">
     <canvas id="canvas" style="display: block;">Your browser is not supported. U mad bro.</canvas>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript">
 
+
         // Help
-        alert('       Как пользоваться этой программой.\nЧтобы сохранить рисунок надо нажать s на клавиатуре.\nЧтобы стереть рисунок нужно нажать c на клавиатуре.\nЧтобы воспроизвести нужно нажать r на клавиатуре.\nЧто делает эта программа, она выводит то ,что вы нарисовали на экран по времени.\nНапример: вы нарисовали дом.\n1:Затем зажимайте кнопку сохранить.\n2:Потом нажимайте кнопку воспроизвести r чтобы ,то что вы нарисовали нарисовалось по линиям за 10 миллисекунд.\n3:Если хотите нарисовать другое , то нажмите кнопку стереть c. \nИ делайте также как в 1 и 2 пункте.\nНа заметку на телефонах это программа не работает там не стационарной клавиатуры.\nТак что только на Пк или подключайте к телефону клавиатуру от Пк.\nP.S Кнопки с маленькай буквы нажимать.\nНе забудьте поставить английскую раскладку!');
+        swal("Как пользоваться этой программой!", "\nЧтобы стереть рисунок нужно нажать c на клавиатуре.\nНа заметку на телефонах это программа не работает там не стационарной клавиатуры.\nТак что только на Пк или подключайте к телефону клавиатуру от Пк.\nP.S. Писать с маленькой буквы!\nНе забудьте поставить английскую раскладку!", "info");
 
 
         // Start
@@ -58,10 +60,7 @@
             }
         });
 
-        function save() {
-            localStorage.setItem('coords', JSON.stringify(coords));
-        }
-
+      
         function clear() {
             ctx.fillStyle = 'white';
             ctx.fillRect(0,0, canv.width, canv.height);
@@ -99,21 +98,6 @@
         }
 
         document.addEventListener('keydown', function (e) {
-            if (e.keyCode == 83) {
-
-                console.log('Saved');
-                // save button on the keyboard s 
-                save();
-            }
-
-            if (e.keyCode == 82) {
-                console.log('Replaying');
-                // replay button on the keyboard r
-                coords = JSON.parse(localStorage.getItem('coords'));
-                clear();
-                replay();
-            }
-
             if (e.keyCode == 67) {
                 console.log('Clear');
                 // clear button on the keyboard c 

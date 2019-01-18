@@ -19,41 +19,41 @@
     <meta name="description" content="★Это сайт покажет мои проекты на старте, и раскажет какими программами я пользуюсь. Поможет вам в создание сайтов, приложений, игр. 
     Мой опыт и как надо программировать." />
     <meta name="keywords" content="сайт, программирование, создание сайтов, Нравится, программирование для новичков, мои проекты, github, приложения, игры, denis yurkov, denisyurkov, site denisyurkov, yurkov site, yurkovsite, site denis yurkov, сайт денис юрков, Сайт Денис Юрков">
-    <title>Создание сайтов с чем я сталкивался при создание сайтов и мои проекты</title>
+    <title>Моё Портфолио</title>
     <link href="img/favicon (1).ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="canonical" href=" yurkovsite.ga"/>
+    <link rel="canonical" href=" www.yurkovsite.ga"/>
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
-      <h1 class='header__text'>Просмотрев мои 10 проектов вы поймёте программированию можно научиться самому</h1>
-      <p class="text">Если вам нужны другие мои проекты. Зайдите  на мой <a href="https://github.com/DenisYurkov" class="github">GitHub</a>Их там много.</p>
+      <h1 class="header__text">Моё Портфолио</h1>
+      <p class="text">Если вам нужны другие мои проекты. Зайдите  на мой <a href="https://github.com/DenisYurkov" class="github">GitHub</a> Их там много.</p>
       <p class="help__text"></p>
     </header>
-	<section class="section">
+	<main class="section">
 		<div class="contaner">
 			<nav class="main">
 		        <ul>
-                    <li class="eight__block"><a href="Page of the Home Page/weather app site/weather app site.html" target="blank" title="Click on me">Сайт для приложения погоды</a></li>
+                    <li class="eight__block"><a href="#" target="blank" title="Click on me">Сайт для приложения погоды</a></li>
                     <li class="one__block"><a href="Page of the Home Page/certificates/certificates.html" target="blank" title="Click on me">Сертификаты за программирование</a></li>
                     <li class="two__block"><a href="Page of the Home Page/canvas paint/canvas.html" target="blank" title="Click on me">Paint в браузере</a></li>
-                    <li class="three__block"><a href="Page of the Home Page/snakeGame/snakeGame.html" target="blank" title="Click on me">Игра змейка в браузере</a></li>
+                    <li onclick="snakeGameTime();" class="three__block"><a href="#" target="blank" title="Click on me">Игра змейка в браузере</a></li>
                     <li class="four__block"><a href="Page of the Home Page/bookmarks/bookmarks.html" target="blank" title="Click on me">Программы которыми я пользуюсь</a></li>
-                    <li class="five__block"><a href="Page of the Home Page/to do list/notes.html" target="blank" title="Click on me">Приложение заметок</a></li>
-                    <li class="six__block"><a href="Page of the Home Page/to do list new design/to do list new design.html" target="blank" title="Click on me">Приложение заметок новый дизайн</a></li>              
+                    <li class="five__block"><a href="#" target="blank" title="Click on me">Приложение заметок</a></li>
+                    <li class="six__block"><a href="#" target="blank" title="Click on me">Приложение заметок новый дизайн</a></li>              
                     <li class="nine__block"><a href="Page of the Home Page/queen/queen.html" target="blank" title="Click on me">Сайт с книгой</a></li>
 		        </ul>
 			</nav>
-	</div>
+	    </div>
 		<!-- /.contaner -->
-	</section>
-    <!-- /.section -->
+    </main>
+    <!-- /.main -->
     
 <!-- Script loading -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script  src="js/queryloader2.min.js" ></script>
 <script  src="js/loading.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>     
 <script>
     jQuery(document).ready(function () {
@@ -63,6 +63,13 @@
             showCursor : false     
     });
 });
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+    function snakeGameTime () {
+        swal("Игра дорабатываеться", "будет готова к 26.01.2019", "info");
+
+    }
 </script>
 </body>
 </html>

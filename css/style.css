@@ -34,10 +34,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background: url("../img/blake-connally-373084-unsplash (1) (1) (1).jpg") no-repeat  center;                                            
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background: url("https://lifehacker.ru/wp-content/themes/lifehacker/static/img/pat3.png") repeat;                                            
 }
 
 h1 {
