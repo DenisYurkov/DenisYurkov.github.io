@@ -34,14 +34,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background: url("../img/pat3.png") repeat;                                            
+    background: url("../img/pat3.png") repeat;  
+    font-family: 'Roboto', sans-serif;                                          
 }
 
 h1 {
     font-size:25px;
     padding-top: 15px;
-    color: #fff;
-    text-align: center; }
+    color: #686DDC;
+    text-align: center; 
+    font-weight: bold;
+}
 
 .github {
     cursor: pointer;
@@ -55,17 +58,15 @@ h1 {
 }
 
 .text {
-    color: #BBBBBB !important;
+    color: #f27474 !important;
     text-align: center;
     font-size: 19px;
-    color: #fff;
     padding-top: 100px; }
 
 .help__text {
-    color: #E9752E !important;
+    color: #007BFF !important;
     text-align: center;
     font-size: 18px;
-    color: #fff;
     padding-top: 100px;
 }
 
