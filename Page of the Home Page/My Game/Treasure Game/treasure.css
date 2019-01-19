@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+#heading {
+    margin-bottom: 50px;
+}
+
+button {
+    border-radius: 5px;
+
+}

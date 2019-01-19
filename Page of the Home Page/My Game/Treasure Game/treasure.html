@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="img/favicon (1).ico" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="treasure.css">
     <title>Treasure</title>
     <style>
         img {
@@ -15,13 +16,16 @@
     </style>
 </head>
 <body>
+        <button onclick="level1();">Level 1</button>
+        <button onclick="level2();">Level 2</button>
+        <button onclick="level3();">Level 3</button>
+        <button onclick="level4();">Level 4</button>
+        <button onclick="level5();">Level 5</button>
     <h1 id="heading">Найти клад!</h1>
-
     <img id="map" src="img/treasuremap.png" width=800 height=800>
-
+    
     <p id="distance"></p>
     <p id="click-remaining"></p>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
