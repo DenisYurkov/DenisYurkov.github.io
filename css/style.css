@@ -28,13 +28,15 @@ footer, header, hgroup, menu, nav, section {
 }
 
 html, body {
-    overflow-x: hidden; }
+    overflow-x: hidden; 
+}
 
 body {
     margin: 0;
     padding: 0;
     background: url("../img/pat3.png") repeat;  
-    font-family: 'Roboto', sans-serif;                                          
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;                                          
 }
 
 h1 {
