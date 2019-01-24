@@ -80,7 +80,8 @@ h1 {
 li {
     display: inline-block;
     max-width: 100%;
-    vertical-align: middle; }
+    vertical-align: middle; 
+}
 
  a {
     display: block;
