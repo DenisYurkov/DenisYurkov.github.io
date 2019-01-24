@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#heading {
+    margin-bottom: 50px;
+}
+
+
+button {
+    border-radius: 5px;
+
+}
+
+img {
+    max-width: 100%;
+    border-radius: 11px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
