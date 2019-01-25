@@ -1,70 +1,83 @@
-/*css*/
 body{
 	padding: 5px;
 	margin:5px;
-	font-family:Florence,cursive;
+	font-family:"Florence", cursive;
 	background:url("../img/leaves-pattern.png");
 }
-img{
+
+img {
 	float:left;
 	margin-right: 30px
-}
+} 
+
 p {
     font-size: 19px;
-}
-#header{
+} 
+
+#header {
 	color:#28A5FF;
 	text-align: center;
-}
-a{
+} 
+
+a {
     font-size: 17px;
 	text-decoration:none;
 
-}
-a:active{
+} 
+
+a:active {
 	color:#2369FF;
-}
-a:hover{
+} 
+
+a:hover {
     text-decoration: underline;
 	color:#FF6E14;
-}
+} 
 
-h2{
+h2 {
 	color:#4FBF9F;
-}
+} 
+
 h2:hover{
-	color:#FFDD00;
-}
+	color:#833bd6;
+} 
+
 ul li{
 	color:#19F7FF;
 	margin-right:20px;
-}
-h5{
+} 
+
+h5 {
     font-size: 16px;
 	color:#FF633C;
 }
 
-img{
+img {
 	height:111px;
-}
+} 
+
 .photos{
 	max-width: 100%;
 	height:140px;
 	width:545px; 
-}
-.location{
+} 
+
+.location {
 	max-width: 100% ;
 	color:#2369FF;
-}
-.location:hover{
+} 
+
+.location:hover {
 	color:#F08B38;
-}
-.icon{
+} 
+
+.icon {
 	max-width: 100%;
 	display: inline-block;
-}
-.gfgjk{
+} 
+
+.copyright {
 	max-width: 100%;
 	display: inline-block;
 	margin-top: 88px;
-}
+} 
