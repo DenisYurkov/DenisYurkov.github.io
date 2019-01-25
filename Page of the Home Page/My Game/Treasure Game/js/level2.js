@@ -14,19 +14,19 @@ function getDistance(event, target) {
 
 // Получить для расстояния строку подсказки 
 function getDistanceHint(distance) {
-    if (distance < 30) {
+    if (distance < 100) {
         return "Обожжешься!";
-    } else if (distance < 40) {
+    } else if (distance < 114) {
         return "Очень горячо!";  
-    } else if (distance < 60) {
+    } else if (distance < 133) {
         return "Горячо";
-    } else if (distance < 120) {
+    } else if (distance < 160) {
         return "Тепло";
-    } else if (distance < 220) {
+    } else if (distance < 200) {
         return "Холодно";
-    } else if (distance < 320) {
+    } else if (distance < 266) {
         return "Очень холодно";
-    } else if (distance < 540) {
+    } else if (distance < 400) {
         return "Очень-очень холодно";
     } else {
         return "Замёрзнешь!"
@@ -68,7 +68,7 @@ $("#map").click(function (event) {
 
 
     // Если клик был достаточно близко вывести, поздравление с победой
-    if (distance < 35) {
+    if (distance <  88) {
         swal("Клад найден! Сделано кликов: " + click);
     }
 });

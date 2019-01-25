@@ -1,20 +1,23 @@
 * {
     box-sizing: border-box;
 }
+
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
 
 #heading {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
 button {
     border-radius: 5px;
-
-}
+    margin: 5px;
+    color: black
+}   
 
 img {
     max-width: 100%;
