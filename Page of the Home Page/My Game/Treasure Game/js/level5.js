@@ -22,11 +22,11 @@ function getDistanceHint(distance) {
         return "Горячо";
     } else if (distance < 45) {
         return "Тепло";
-    } else if (distance < 150) {
+    } else if (distance < 75) {
         return "Холодно";
-    } else if (distance < 200) {
+    } else if (distance < 420) {
         return "Очень холодно";
-    } else if (distance < 320) {
+    } else if (distance < 520) {
         return "Очень-очень холодно";
     } else {
         return "Замёрзнешь!"
