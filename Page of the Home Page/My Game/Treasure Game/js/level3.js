@@ -20,9 +20,9 @@ function getDistanceHint(distance) {
         return "Очень горячо!";  
     } else if (distance < 45) {
         return "Горячо";
-    } else if (distance < 167) {
+    } else if (distance < 75) {
         return "Тепло";
-    } else if (distance < 250) {
+    } else if (distance < 180) {
         return "Холодно";
     } else if (distance < 320) {
         return "Очень холодно";
