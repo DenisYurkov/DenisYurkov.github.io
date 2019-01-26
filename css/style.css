@@ -35,8 +35,7 @@ body {
     margin: 0;
     padding: 0;
     background: url("../img/pat3.png") repeat;  
-    font-family: "Florence", cursive;  
-    font-weight: bold;                                          
+    font-family: 'Open Sans', sans-serif;       
 }
 
 h1 {
