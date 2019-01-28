@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family:'Gaegu', cursive; 
+  overflow-x: hidden;
+}
+@keyframes  mymove {
+  0%{background: none; }
+  50%{color:#FFB28C;}
+  100%{ background: url("../img/have_20a_20super_20radicalbirthday_.jpg") no-repeat center center;}
+}
+h1{
+  animation: mymove 2s  forwards;
+}
+h1{
+  height: 400px;
+  margin:0 5px 15px 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  color:#0FC3FF;
+}
+.font{
+  background:url("../img/leaves-pattern.png") ;
+}
+img{
+  max-width: 100%;
+}
+p{
+  text-align: center;
+  position: relative;
+  top:-300px;
+}
+footer{
+  position: relative;
+  top:500px ;
+}
+.copirat{
+  
+  color:#64676D;
+}
+.image{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.image-1{
+  width:179px;
+  margin: 10px;
+  position:relative; 
+  top:-65px;
+  left:95px;
+}
+@media (max-width: 600px) {
+   h1{
+    font-size:36px;
+  }
+  p{
+    font-size: 24px;
+  }
+  
+}

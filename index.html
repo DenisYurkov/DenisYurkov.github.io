@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-123736970-4', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="beQwlcvBqzMqqf0yIQaGNMbOohkibSMbA4AkcjYtobE" />
+    <meta name='wmail-verification' content='836ca6696fef5755c933e9fb6d9c5f6e'/>
+    <meta name="yandex-verification" content="28dc8e3517f7e504" />
+    <meta name="description" content="★Это сайт покажет мои проекты, и раскажет какими программами я пользуюсь. Поможет вам в создание сайтов, приложений, игр. 
+    Мой опыт и как надо программировать." />
+    <meta name="keywords" content="сайт, программирование, создание сайтов, Нравится, программирование для новичков, мои проекты, github, приложения, игры, denis yurkov, denisyurkov, site denisyurkov, yurkov site, yurkovsite, site denis yurkov, сайт денис юрков, Сайт Денис Юрков">
+    <meta name="author" content="Denis Yurkov">
+    <meta name="copyright" content="All rights belong to Denis Yurkov">
+    <title>Моё Портфолио</title>
+    <link href="img/favicon (1).ico" 
+    rel="shortcut icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="canonical" href=" www.yurkovsite.ga"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+      <h1 class="header__text">Моё Портфолио</h1>
+      <p class="text">Если вам нужны другие мои проекты <br>Зайдите  на мой <a href="https://github.com/DenisYurkov" class="github">GitHub</a></p>
+      <p class="help__text"></p>
+    </header>
+	<main class="section">
+		<div class="contaner">
+			<nav class="main">
+		        <ul>
+                    <li class="eight__block"><a href="Page of the Home Page/My Game/Treasure Game/treasure.html" target="blank" title="Click on me">Игра найти клад</a></li>
+                    <li class="five__block"><a href="Page of the Home Page/My Game/Hangman Game/Hangman.html" target="blank" title="Click on me">Игра Висельница</a></li>
+                    <li onclick="snakeGameTime();" class="three__block"><a  target="blank" title="Click on me">Игра змейка в браузере</a></li>
+                    <li class="one__block"><a href="Page of the Home Page/certificates/certificates.html" target="blank" title="Click on me">Сертификаты за программирование</a></li>
+                    <li class="six__block"><a href="Page of the Home Page/animates/index.html" target="blank" title="Click on me">Введите число и получите анимацию</a></li>   
+                    <li class="two__block"><a href="Page of the Home Page/canvas paint/canvas.html" target="blank" title="Click on me">Paint в браузере</a></li>
+                    <li class="four__block"><a href="Page of the Home Page/bookmarks/bookmarks.html" target="blank" title="Click on me">Программы которыми я пользуюсь</a></li>           
+                    <li class="nine__block"><a href="Page of the Home Page/queen/queen.html" target="blank" title="Click on me">Сайт с книгой</a></li>
+		        </ul>
+			</nav>
+	    </div>
+		<!-- /.contaner -->
+    </main>
+    <!-- /.main -->
+    
+<!-- Script loading -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script  src="js/queryloader2.min.js" ></script>
+<script  src="js/loading.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>     
+<script>
+    jQuery(document).ready(function () {
+        var typed = new Typed(".help__text", {
+            strings: ["Выберите сайт который вам понравился "],
+            typeSpeed: 60,
+            showCursor : false     
+    });
+});
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+    function snakeGameTime () {
+        swal("Игра дорабатываеться", "будет готова к 31.01.2019", "info");
+
+    }
+</script>
+</body>
+</html>
