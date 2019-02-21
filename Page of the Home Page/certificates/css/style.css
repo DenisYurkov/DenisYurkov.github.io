@@ -1,0 +1,92 @@
+body {
+	padding: 5px;
+	margin: 5px;
+	font-family: "Florence", cursive;               
+	background: url("../img/leaves-pattern.png");
+		
+}
+
+header {	
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	border-radius: 12px;
+}
+
+.photos {
+	float:left;
+	margin-right: 30px;
+	height:150px;
+	width:80px;
+}
+
+p {
+    font-size: 19px;
+}
+
+h2 {
+	color:#4FBF9F;
+}
+
+h2:hover {
+	color:#833bd6;
+}
+
+h3 {
+	color:#4FBF9F;
+}
+h3:hover {
+	color:#833bd6;
+}
+
+img {
+	width:300px;
+}
+
+.color {
+	
+	color:#26C8F0;
+}
+
+h4 { 
+	color:#4FBF9F;
+}
+
+h4:hover {
+	color:#833bd6;
+}
+
+h5 {
+    font-size: 16px;
+	color:#FF6D1E;
+}
+
+.my-contacts {
+	max-width: 100%;
+	color: #41B0FF;
+	text-align: center;
+}
+
+.contacts {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.location {
+	color:#2D73FF;
+}
+
+.location:hover { 
+	color:#FF8C2D;
+}
+
+.card {
+	max-width: 100%;
+}
+
+.copyright {
+	text-align: center;
+}

@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box; }
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%; }
+
+body {
+  margin: 0;
+  font-family: "Tahoma", sans-serif; }
+
+img {
+  max-width: 100%; }
+
+.header {
+  padding-top: 77px;
+  padding-bottom: 96px; }
+  .header__title {
+    font-family: Tahoma;
+    font-size: 48px;
+    font-weight: 700; }
+  .header__siblitle {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 400; }
+  .header__dest {
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px; }
+  .header__price {
+    font-size: 48px;
+    margin-top: 47px;
+    margin-bottom: 53px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #313131; }
+
+.button {
+  margin-bottom: 30px;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  background-color: #f05a22;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  padding: 23px 43px;
+  margin-right: 40px;
+  cursor: pointer; }
+
+.button-o {
+  background-color: transparent;
+  border: 3px solid #f05a22;
+  color: #f05a22; }
+
+button,
+button:active,
+button:focus {
+  outline: none; }
+
+.features {
+  text-align: center;
+  padding-top: 89px;
+  padding-bottom: 100px;
+  background-color: #f2f2f2; }
+
+.section-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 91px; }
+
+.features__img {
+  min-height: 55px; }
+
+.features__text {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px; }
+
+.buyer {
+  text-align: center;
+  padding-top: 89px;
+  padding-bottom: 111px; }
+
+.footer__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 69px; }
+.buyer__img {
+  min-height: 55px; }
+
+.buyer__img2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-height: 55px; }
