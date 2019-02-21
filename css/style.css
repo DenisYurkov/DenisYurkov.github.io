@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
+/* Remove the scroll bar */
 html, body {
     overflow-x: hidden; 
 }
@@ -189,8 +190,8 @@ li:hover {
     margin-bottom: 30px;
    } 
    .ten__block  {
-     width: 100%;
-     margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 30px;
    }
 }
 
