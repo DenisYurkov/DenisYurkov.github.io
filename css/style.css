@@ -10,8 +10,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -22,28 +22,28 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
 /* Remove the scroll bar */
 html, body {
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background: url("../img/pat3.png") repeat;  
-    font-family: 'Open Sans', sans-serif;       
+    background: url("../img/pat3.png") repeat;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     font-size: 30px;
     padding-top: 15px;
     color: #686DDC;
-    text-align: center; 
+    text-align: center;
     font-weight: bold;
 }
 
@@ -56,7 +56,7 @@ h1 {
 
 .github:hover {
     color: #FF7614;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .text {
@@ -81,7 +81,7 @@ h1 {
 li {
     display: inline-block;
     max-width: 100%;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
 
 a {
@@ -90,7 +90,7 @@ a {
     text-decoration: none;
     color: #fff;
     border: 3px solid transparent;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .one__block {
@@ -126,7 +126,7 @@ a {
     background: #E25072;
     border-radius: 11px;
     padding: 30px;
-    margin-right: 50px; 
+    margin-right: 50px;
     }
 .seven__block {
     background: #FF788F;
@@ -138,7 +138,7 @@ a {
     background: #007BFF;
     border-radius: 11px;
     padding: 30px;
-    margin-right: 50px; 
+    margin-right: 50px;
 }
 
 .nine__block {
@@ -184,11 +184,11 @@ li:hover {
     margin-bottom: 30px; }
   .eight__block {
     width: 100%;
-    margin-bottom: 30px; } 
+    margin-bottom: 30px; }
   .nine__block {
     width: 100%;
     margin-bottom: 30px;
-   } 
+   }
    .ten__block  {
     width: 100%;
     margin-bottom: 30px;
@@ -203,6 +203,87 @@ li:hover {
     }
 }
 
+/* iPad and iPad mini */
+@media (width: 768px) {
+    body {
+        zoom: 2;
+    }
+
+    .one__block  {
+        width: 100%;
+        margin-bottom: 30px; }
+    .two__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .three__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .four__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .five__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .six__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .seven__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .eight__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .nine__block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .ten__block  {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* iPad Pro */
+@media (width: 1024px) {
+    body {
+        zoom: 2;
+    }
+
+    .one__block  {
+        width: 100%;
+        margin-bottom: 30px; }
+    .two__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .three__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .four__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .five__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .six__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .seven__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .eight__block {
+        width: 100%;
+        margin-bottom: 30px; }
+    .nine__block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .ten__block  {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Update */
 @media (min-width: 576px ) {
     .ten__block {
         margin-left: 31px;
