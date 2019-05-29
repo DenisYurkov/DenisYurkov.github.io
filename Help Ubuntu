@@ -1,0 +1,3 @@
+If browser-sync does not work on Ubuntu:
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config
