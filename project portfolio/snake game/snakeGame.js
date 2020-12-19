@@ -1,5 +1,6 @@
 // Всплывающие окно помощи
-alert("Это игра змейка\nEсть красные точки вы должны их съесть набрать счет 20, чтобы победить.\nУправлять с помощью стрелочек на клавиатуре.\nНа телефонах не работает там нет стационарной клавиатуры.\nЕсли хотите играть на телефоне подключите стационарную клавиатуру к нему.\nЧтобы начать заново играть обновите страницу.\nУдачи!");
+alert("It's a snake game.\nIn the red dots, you have to eat them in 20 to win.\nRunning with a keyboard on the keyboard.\nThere's no fixed keyboard on the phones.\nTo start again playing the refresh page.\
+Good Luck!");
 // Настройка «холста»
 var canvas = document.getElementById("screen");
 var ctx = canvas.getContext("2d");
@@ -30,7 +31,7 @@ var drawScore = function () {
   ctx.fillStyle = "Pink";
   ctx.textAlign = "left";
   ctx.textBaseline = "top";
-  ctx.fillText("Счёт:  " + score, blockSize, blockSize);
+  ctx.fillText("Score:  " + score, blockSize, blockSize);
 };
 
 // Отменяем действие setInterval и печатаем сообщение "Поражение"
@@ -40,7 +41,7 @@ var gameOver = function () {
   ctx.fillStyle = "Pink";
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
-  ctx.fillText("Поражение", width / 2, height / 2);
+  ctx.fillText("Lose", width / 2, height / 2);
 };
 // Ввыводит сообщение о победе и печает сообщение "Победа"
 var gameWin = function () {
@@ -49,7 +50,7 @@ var gameWin = function () {
   ctx.fillStyle = "Pink";
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
-  ctx.fillText("Победа", width / 2, height / 2);
+  ctx.fillText("Win", width / 2, height / 2);
 };
 
 // Рисуем окружность 
