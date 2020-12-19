@@ -1,5 +1,6 @@
 // Help Text
-swal("Инструкция к игре", "Смысл игры найти клад!\nКликайте на картинку!\nУ вас 20 попыток!\n Внизу под картинкой будут написаны подсказки по типу горячо или холодно и сколько попыток осталось!\n Удачи!", "info");
+swal("Game instructions", "The point of the game is to find the treasure!\nClick on the picture!\nYou have 20 attempts!\nBelow the picture will be written hints of hot or cold, and how many attempts are left!\n Good Luck!", "info");
+
 // Получить случайное число от 0 до size-1
 function getRandomNumber(size) {
     return Math.floor(Math.random() * size);
@@ -15,21 +16,21 @@ function getDistance(event, target) {
 // Получить для расстояния строку подсказки 
 function getDistanceHint(distance) {
     if (distance < 100) {
-        return "Обожжешься!";
+        return "Almost";
     } else if (distance < 114) {
-        return "Очень горячо!";  
+        return "Very hot!";  
     } else if (distance < 133) {
-        return "Горячо";
+        return "Hot!";
     } else if (distance < 160) {
-        return "Тепло";
+        return "Warm!";
     } else if (distance < 200) {
-        return "Холодно";
+        return "Cold";
     } else if (distance < 266) {
-        return "Очень холодно";
+        return "Very cold!";
     } else if (distance < 400) {
-        return "Очень-очень холодно";
+        return "Very-very cold!";
     } else {
-        return "Замёрзнешь!"
+        return "You're freezing!"
     }
 }
 
@@ -51,7 +52,7 @@ $("#map").click(function (event) {
 
     // Ограничение по попытком
     if (click > clickLimit) {
-        swal("Закончились попытки, обновите страниц чтобы начать заново!");
+        swal("We ran out of attempts, updated the pages to start again!");
         return;
     }
     // Получаем расстояние от места клика до клада 
@@ -64,11 +65,11 @@ $("#map").click(function (event) {
     $("#distance").text(distanceHint);
 
     // Записаваем в элемент в #click-remaining столько осталось попыток
-    $("#click-remaining").text("Осталось " + (clickLimit - click) + " попыток!");
+    $("#click-remaining").text("Left " + (clickLimit - click) + " attempts!");
 
 
     // Если клик был достаточно близко вывести, поздравление с победой
     if (distance < 88) {
-        swal("Клад найден! Сделано кликов: " + click);
+        swal("The treasure is found! Clicks are made: " + click);
     }
 });
