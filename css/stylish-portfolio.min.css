@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	font-family: 'Source Sans Pro'
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .color_edit {
@@ -91,8 +91,8 @@ h6 {
 	height: auto;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url(../img/BG.png);
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../img/BG.png);
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/HighresScreenshot00003.png");
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/HighresScreenshot00003.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -103,6 +103,7 @@ h6 {
 	margin: 0;
 	padding: 0
 }
+
 
 @media (min-width: 992px) {
 	.masthead {
@@ -261,14 +262,17 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
 	font-weight: 700;
 	font-size: 1.3rem
 }
-
+.show-text 
+{
+	color: rgba(255, 255, 255, 0);
+}
 @media (min-width: 992px) {
 	.portfolio-item {
 		max-width: none;
@@ -293,10 +297,17 @@ h6 {
 	}
 	.portfolio-item:hover img {
 		-webkit-clip-path: inset(2rem);
-		clip-path: inset(2rem)
+		clip-path: inset(2rem);
+		color: rgba(0, 0, 0, 1)
+		
 	}
+	.portfolio-item:hover .show-text  
+	{
+		color: rgba(255, 255, 255, 1);
+	}
+
 	.portfolio-item:hover .caption {
-		background-color: rgba(29, 128, 159, 0.9);
+		background-color: rgba(0, 0, 0, 0.9);
 		-webkit-clip-path: inset(2rem);
 		clip-path: inset(2rem)
 	}
@@ -381,4 +392,19 @@ a:active {
 
 .text-secondary {
 	color: #ecb807!important
+}
+
+.center {
+	margin: auto!important;
+	width: 60% !important;
+	padding: 10px !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	iframe
+	{
+		max-width: 100%;	
+	}
 }
