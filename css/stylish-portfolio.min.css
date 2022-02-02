@@ -91,8 +91,8 @@ h6 {
 	height: auto;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/HighresScreenshot00003.png");
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/HighresScreenshot00003.png");
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/Screenshot\ \(25\).png");
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Screenshot\ \(25\).png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -258,7 +258,7 @@ h6 {
 
 .portfolio-item .caption .caption-content {
 	color: #fff;
-	margin: auto 2rem 2rem
+	margin: 45px;
 }
 
 .portfolio-item .caption .caption-content h2 {
