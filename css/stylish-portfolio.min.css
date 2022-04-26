@@ -30,6 +30,35 @@ body {
 	text-transform: uppercase
 }
 
+.play-game {
+	background-color: #e53b44;
+    color: #ffffff;
+    text-shadow: 0 1px 0px #fa5059;
+}
+
+button a {
+	color:white;
+}
+
+button a:hover {
+	color:white;
+	text-decoration: none;
+}
+
+button a:active {
+	color:white;
+	text-decoration: none;
+}
+
+button a:focus {
+	color:white;
+	text-decoration: none;
+}
+
+.play-game:hover {
+	background: #ff2e51;
+}
+
 h1,
 h2,
 h3,
@@ -91,8 +120,8 @@ h6 {
 	height: auto;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/Screenshot\ \(25\).png");
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Screenshot\ \(25\).png");
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/TFC/BG.png");
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/TFC/BG.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -399,8 +428,6 @@ a:active {
 	width: 60% !important;
 	padding: 10px !important;
 }
-
-
 
 @media only screen and (max-width: 768px) {
 	iframe
